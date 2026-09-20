@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #e0e5ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cal{
+     background: #e0e5ec;
+     padding: 25px;
+     border-radius: 30px;
+     box-shadow: 20px 20px 60px #bec3c9,
+     -20px -20px 60px #ffffff;
+     width: 320px;
+  
+}
+
+.cal-but{ 
+    cursor: pointer;
+}
+
+.cal-but:hover{
+    background-color: black;
+}
+
+.display{
+    margin-bottom: 25px;
+}
+
+#input{
+    width: 100%;
+    height: 60px;
+    background: #e0e5ec;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    box-shadow: inset 6px 6px 12px #bec3c9,  inset -6px -6px 12px #ffffff;
+    text-align: right;
+    padding: 20px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;   
+}
+
+.butt{
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    height: 50px;
+    background: #e0e5ec;
+    border-radius: 15px;
+     box-shadow: 6px 6px 12px #bec3c9,  inset -6px -6px 12px #ffffff;
+     transition: all 0.2s ease;
+     cursor: pointer;
+}
+
+.butt:active{
+      box-shadow: 4px 4px 8px #bec3c9,  inset -6px -6px 12px #ffffff;
+}
+
+.action{
+   color: rgb(245, 56, 56);
+}
+
+.ans{
+    color: rgb(12, 216, 12);
+    grid-column: span 2;
+}
+
+.operator{
+     color: rgb(245, 56, 56);
+}
