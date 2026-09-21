@@ -72,14 +72,28 @@ body{
 }
 
 .action{
+      font-size: 18px;
+    font-weight: bold;
+    border: none;
+    height: 50px;
+    background: #e0e5ec;
+    border-radius: 15px;
+     box-shadow: 6px 6px 12px #bec3c9,  inset -6px -6px 12px #ffffff;
+     transition: all 0.2s ease;
+     cursor: pointer;
    color: rgb(245, 56, 56);
 }
 
-.ans{
-    color: rgb(12, 216, 12);
-    grid-column: span 2;
-}
 
 .operator{
+      font-size: 18px;
+    font-weight: bold;
+    border: none;
+    height: 50px;
+    background: #e0e5ec;
+    border-radius: 15px;
+     box-shadow: 6px 6px 12px #bec3c9,  inset -6px -6px 12px #ffffff;
+     transition: all 0.2s ease;
+     cursor: pointer;
      color: rgb(245, 56, 56);
 }
